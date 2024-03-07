@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+   --primary-color: #06223b; 
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+* {
+   font-family: 'Roboto', sans-serif;
+}
+
+#particles-js {
+   width: 100%;
+   height: 100%;
+   background-color: #06223b;
+   background-image: url("");
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   background-position: 50% 50%;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+   font-family: 'Poppins', sans-serif;
+}
