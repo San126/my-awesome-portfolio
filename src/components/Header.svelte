@@ -10,15 +10,15 @@
 <header
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid" +
         (y > 0
-            ? "py-4 bg-slate-950 border-sky-950"
-            : "py-6 bg-transparent border-transparent")}
+            ? "py-4 bg-sky-950 border-sky-950"
+            : "py-6 bg-sky border-transparent")}
 >
     <h1 class="font-medium">
         <b class="font-bold poppins">Sandra</b> R Nair
     </h1>
     <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {#each tabs as tab, index}
-            <a href={tab.link} class="duration-200 hover:text-sky-400">
+            <a href={tab.link} class="duration-200 hover:text-sky-400/20">
                 <p>{tab.name}</p>
             </a>
         {/each}
@@ -30,7 +30,7 @@
         class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
     >
         <div
-            class="absolute top-0 right-full w-full h-full bg-sky-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+            class="absolute top-0 right-full w-full h-full bg-sky-400/20 opacity-20 group-hover:translate-x-full z-0 duration-200"
         ></div>
         <h4 class="relative z-9">Get in touch</h4>
     </a>

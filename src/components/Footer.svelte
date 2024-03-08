@@ -5,10 +5,10 @@
         Connect with me &darr;
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
-        <p><b class="pr-2">Email</b>sandrarnair@gmail.com</p>
+        <p><b class="pr-2">Email</b><span class="text-teal-300">sandrarnair@gmail.com</span></p>
         <p>
             <b class="pr-2">GitHub</b>
-            <a class="text-sky-400" target="_blank" href="#">
+            <a class="text-teal-300" target="_blank" href="#">
                 San126<sup
                     ><span class="text-xs scale-75 pl-0.5">
                         <i
@@ -20,7 +20,7 @@
         </p>
         <p>
             <b class="pr-2">LinkedIn</b>
-            <a class="text-sky-400" target="_blank" href="#">
+            <a class="text-teal-300" target="_blank" href="#">
                 sandra-nair<sup
                     ><span class="text-xs scale-75 pl-0.5">
                         <i

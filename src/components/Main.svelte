@@ -46,13 +46,13 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm white-space-:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-sky-400">Sandra</span> R Nair<br
+                Hi! I'm <span class="poppins bg-transparent text-teal-300 [text-shadow:-6px_7px_8px_teal] shadow-teal-400">Sandra</span> R Nair<br
                 />
                 Full Stack
-                <span class="poppins text-sky-400">Developer</span>
+                <span class="poppins text-teal-300 [text-shadow:-6px_5px_8px_teal] shadow-teal-200">Developer</span>
             </h2>
             <p class="text-base sm white-space-:text-lg md:text-xl">
-                My <span class="text-sky-400">favorite tech</span> includes JavaScript
+                My <span class="bg-transparent text-teal-300 [text-shadow:-6px_7px_2px_teal] shadow-teal-400">favorite tech</span> includes JavaScript
                 (React.js, or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
                 or MongoDB
             </p>
@@ -62,7 +62,7 @@
                 target="_blank"
             >
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-sky-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    class="absolute top-0 right-full w-full h-full bg-yellow-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 ></div>
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a>
@@ -81,22 +81,22 @@
                 a few of my tech endeavors
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-sky-400">see</span> my work?
+                Curious to <span class="poppins text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400">see</span> my work?
             </h3>
         </div>
-        <a
+        <!-- <a
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-sky-700 duration-200"
         >
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
-        </a>
+        </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
                     Schedule Zoom Meet is a zoom scheduling app created with <strong
-                        class="text-sky-400"
+                        class="text-teal-300"
                         >React.js Node.js + Express.js MongoDB!</strong
                     >
                 </p>
@@ -104,7 +104,7 @@
             <Step step={steps[1]}>
                 <p>
                     Schedule Zoom Meet is a zoom scheduling app created with <strong
-                        class="text-sky-400"
+                        class="text-teal-300"
                         >React.js Node.js + Express.js MongoDB!</strong
                     >
                 </p>
@@ -112,7 +112,7 @@
             <Step step={steps[2]}>
                 <p>
                     Schedule Zoom Meet is a zoom scheduling app created with <strong
-                        class="text-sky-400"
+                        class="text-teal-300"
                         >React.js Node.js + Express.js MongoDB!</strong
                     >
                 </p>
@@ -124,11 +124,11 @@
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-sky-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-sky-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-yellow-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-yellow-400 py-4"
         >
             <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-sky-400">about</span> me.
+                A bit <span class="poppins text-teal-300 [text-shadow:-6px_6px_3px_teal] shadow-teal-400">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -151,7 +151,7 @@
                 </div>
             {/each}
         </div>
-        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-sky-400 poppins">Complete</span> Package</h5>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400 poppins">Complete</span> Package</h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
@@ -163,7 +163,7 @@
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
                         <th
-                            class="whitespace-nowrap bg-sky-700 text-white p-4 px-8"
+                            class="whitespace-nowrap bg-yellow-400 text-white p-4 px-8"
                             >Me</th
                         >
                     </tr>
