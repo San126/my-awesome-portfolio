@@ -1,7 +1,9 @@
 # create-svelte
-Thanks to @Smoljames 
+
 I have completed this portfolio with the help of @freeCodeCamp and @Smoljames 
-Reference: https://www.youtube.com/watch?v=-2UjwQzxvBQ
+Thanks to them!
+
+Reference: https://www.youtube.com/watch?v=-2UjwQzxvBQ 
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
