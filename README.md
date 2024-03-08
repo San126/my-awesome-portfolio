@@ -1,6 +1,6 @@
 # create-svelte
 
-I have completed this portfolio with the help of @freeCodeCamp and @Smoljames 
+I have completed this portfolio with the help of @freeCodeCamp.org and @jamezmca 
 Thanks to them!
 
 Reference: https://www.youtube.com/watch?v=-2UjwQzxvBQ 
