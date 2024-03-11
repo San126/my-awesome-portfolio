@@ -3,9 +3,31 @@
     import "../../src/app.css";
 
     let steps = [
-        { name: "San Store", icon: "fa-solid fa-cart-shopping" },
-        { name: "Ultimate Todos", icon: "fa-solid fa-list-check" },
-        { name: "Poke", icon: "fa-solid fa-diagram-project" },
+        {
+            name: "Survey Form",
+            icon: "fa-solid fa-users",
+            href: "https://spontaneous-bienenstitch-4e2994.netlify.app",
+        },
+        {
+            name: "Documetation Site",
+            icon: "fa-solid fa-file-text",
+            href: "https://earnest-quokka-e9fb04.netlify.app/",
+        },
+        {
+            name: "Product Launch",
+            icon: "fa-solid fa-cart-shopping",
+            href: "https://peppy-vacherin-a5f968.netlify.app/",
+        },
+        {
+            name: "Typography",
+            icon: "fa-solid fa-sort-alpha-asc",
+            href: "https://effortless-marigold-62c86d.netlify.app/",
+        },
+        {
+            name: "Palindrome Check",
+            icon: "fa-solid fa-check",
+            href: "https://bejewelled-crepe-a269cf.netlify.app/",
+        },
     ];
 
     let benefits = [
@@ -45,21 +67,30 @@
         <div
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm white-space-:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins bg-transparent text-teal-300 [text-shadow:-6px_7px_8px_teal] shadow-teal-400">Sandra</span> R Nair<br
-                />
+            <h2
+                class="font-semibold text-4xl sm white-space-:text-5xl md:text-6xl"
+            >
+                Hi! I'm <span
+                    class="poppins bg-transparent text-teal-300 [text-shadow:-6px_7px_8px_teal] shadow-teal-400"
+                    >Sandra</span
+                >
+                R Nair<br />
                 Full Stack
-                <span class="poppins text-teal-300 [text-shadow:-6px_5px_8px_teal] shadow-teal-200">Developer</span>
+                <span
+                    class="poppins text-teal-300 [text-shadow:-6px_5px_8px_teal] shadow-teal-200"
+                    >Developer</span
+                >
             </h2>
             <p class="text-base sm white-space-:text-lg md:text-xl">
-                My <span class="bg-transparent text-teal-300 [text-shadow:-6px_7px_2px_teal] shadow-teal-400">favorite tech</span> includes JavaScript
-                (React.js, or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or MongoDB
+                My <span
+                    class="bg-transparent text-teal-300 [text-shadow:-6px_7px_2px_teal] shadow-teal-400"
+                    >favorite tech</span
+                > includes JavaScript (React.js, or SvelteKit), TailwindCSS, Node.js
+                + Express.js & PostgreSQL or MongoDB
             </p>
             <a
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm white-space-:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-ful bg-white text-slate-950 cursor-pointer"
-                href="#"
-                target="_blank"
+                href="#connect"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-yellow-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -81,7 +112,10 @@
                 a few of my tech endeavors
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400">see</span> my work?
+                Curious to <span
+                    class="poppins text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400"
+                    >see</span
+                > my work?
             </h3>
         </div>
         <!-- <a
@@ -94,30 +128,72 @@
         </a> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/survey.png"}
+                    alt="project"
+                />
                 <p>
-                    Schedule Zoom Meet is a zoom scheduling app created with <strong
-                        class="text-teal-300"
-                        >React.js Node.js + Express.js MongoDB!</strong
+                    Survey Form Design- developed with <strong
+                        class="text-teal-300">HTML and CSS!</strong
                     >
                 </p>
             </Step>
             <Step step={steps[1]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/cssdoc.png"}
+                    alt="project"
+                />
                 <p>
-                    Schedule Zoom Meet is a zoom scheduling app created with <strong
-                        class="text-teal-300"
-                        >React.js Node.js + Express.js MongoDB!</strong
-                    >
+                    CSS Selectors - documetation site developed with <strong
+                        class="text-teal-300">HTML and CSS!</strong
+                    > with fixed nav.
                 </p>
             </Step>
             <Step step={steps[2]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/productlaunch.png"}
+                    alt="project"
+                />
                 <p>
-                    Schedule Zoom Meet is a zoom scheduling app created with <strong
+                    Product Launch Responsive Web Page (Front-End) is front page
+                    design for an online shopping website developed with the
+                    help of <strong class="text-teal-300"
+                        >JavaScript, HTML and CSS!</strong
+                    >
+                </p>
+            </Step>
+            <Step step={steps[3]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/typography.png"}
+                    alt="project"
+                />
+                <p>
+                    To test my typography skills- developed with <strong class="text-teal-300"
+                        >JavaScript, HTML and CSS!</strong
+                    >
+                </p>
+            </Step>
+            <Step step={steps[4]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/palindromecheck.png"}
+                    alt="project"
+                />
+                <p>
+                    Palindrome Check app has developed with the help of <strong
                         class="text-teal-300"
-                        >React.js Node.js + Express.js MongoDB!</strong
+                        >HTML and @media CSS at-rule</strong
                     >
                 </p>
             </Step>
         </div>
+        <h2 class="font-semibold text-3xl sm:text-4xl md:text-5xl m-auto">
+            ...in progress
+        </h2>
     </section>
     <section
         id="about"
@@ -128,7 +204,10 @@
         >
             <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-teal-300 [text-shadow:-6px_6px_3px_teal] shadow-teal-400">about</span> me.
+                A bit <span
+                    class="poppins text-teal-300 [text-shadow:-6px_6px_3px_teal] shadow-teal-400"
+                    >about</span
+                > me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -151,7 +230,12 @@
                 </div>
             {/each}
         </div>
-        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400 poppins">Complete</span> Package</h5>
+        <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
+            The <span
+                class="text-teal-300 [text-shadow:-6px_6px_2px_teal] shadow-teal-400 poppins"
+                >Complete</span
+            > Package
+        </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
