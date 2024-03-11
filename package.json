@@ -9,8 +9,8 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^4.1.0",
+		"@sveltejs/kit": "^2.5.3",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.18",
 		"postcss": "^8.4.35",
