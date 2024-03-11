@@ -1,12 +1,10 @@
-import adapter from '@sveltejs/adapter-netlify';
-import { svelte } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    target: '#svelte',
-    adapter: adapter()
-  }
+	kit: {
+		adapter: adapter()
+	}
 };
 
 export default config;
