@@ -1,2 +1,4 @@
-command = "npm run build"
-  publish = "public"
+[build]
+	command = "npm run build"
+	publish = "build/"
+    functions = "functions/"
