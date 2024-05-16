@@ -28,6 +28,11 @@
             icon: "fa-solid fa-check",
             href: "https://bejewelled-crepe-a269cf.netlify.app/",
         },
+        {
+            name: "Todos App",
+            icon: "fa-solid fa-tasks",
+            href: "https://wondrous-sunburst-12a15c.netlify.app/",
+        },
     ];
 
     let benefits = [
@@ -188,6 +193,19 @@
                         class="text-teal-300"
                         >HTML and @media CSS at-rule</strong
                     >
+                </p>
+            </Step>
+            <Step step={steps[5]}>
+                <img
+                    class="project-image object-fill h-48 w-96 m-auto"
+                    src={"images/todos.png"}
+                    alt="project"
+                />
+                <p>
+                    Todos app - a full-stack <strong
+                        class="text-teal-300"
+                        >Rect-Node</strong
+                    > application helps user to create and manage 'todo' list for individual projects.
                 </p>
             </Step>
         </div>
